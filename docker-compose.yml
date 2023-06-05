@@ -7,6 +7,6 @@ services:
     container_name: landin_to_kaveh_negar
     restart: unless-stopped
     volumes:
-      - ./config:/app/config
+      - ./config:/usr/src/app/config
     ports:
       - 3000:3000
