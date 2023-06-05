@@ -1,4 +1,4 @@
-version: 3.7
+version: "3.7"
 
 services:
   landin_to_kaveh_negar:
