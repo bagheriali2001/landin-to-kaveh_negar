@@ -1,0 +1,12 @@
+version: 3.7
+
+services:
+  landin_to_kaveh_negar:
+    build: .
+    image: landin_to_kaveh_negar:latest
+    container_name: landin_to_kaveh_negar
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config
+    ports:
+      - 3000:3000
